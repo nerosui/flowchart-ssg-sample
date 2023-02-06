@@ -3,8 +3,8 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "gerate": "nuxt generate",
-    "generate:github": "nuxt generate NUXT_APP_BASE_URL=flowchart-ssg-sample",
+    "generate": "nuxt generate",
+    "generate:github": "NUXT_APP_BASE_URL=/flowchart-ssg-sample/ nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
