@@ -7,7 +7,7 @@
     </footer>
 </template>
 
-<style scss scoped>
+<style scoped>
 footer {
     text-align: center;
 }

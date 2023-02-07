@@ -4,7 +4,7 @@
     </h1>
 </template>
 
-<style scoped scss>
+<style scoped>
 h1 {
     text-align: center !important;
     font-size: 32px;

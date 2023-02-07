@@ -31,7 +31,3 @@ const route = useRoute()
 const question_id = route.params.question_id
 const question = Object.values(questions).find((question:any) => question.id === question_id)
 </script>
-
-<style>
-
-</style>
