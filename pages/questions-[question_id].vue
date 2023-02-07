@@ -17,8 +17,8 @@
                 </NuxtLink>
             </div>
         </div>
-        <div v-if="question?.choices == null" class="d-flex flex-justify-center">
-            <NuxtLink :to="'/'" class="d-block border rounded-2 px-3 p-2 mb-2">
+        <div v-if="question?.choices == null" class="d-flex flex-justify-center p-5">
+            <NuxtLink :to="'/'" class="d-block border rounded-2 p-5 mb-2">
                 Restart
             </NuxtLink>
         </div>

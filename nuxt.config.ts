@@ -7,5 +7,15 @@ export default defineNuxtConfig({
     },
     layoutTransition: { name: "layout", mode: "out-in" },
   },
-  css: ["@/assets/primer.scss", "@/assets/styles.scss"],
+  css: ["@/assets/styles.scss"],
+  experimental:{
+    payloadExtraction:false
+  },
+  build: {
+  postcss: {
+    plugins: {
+      "postcss-custom-properties": false
+    },
+  },
+},
 });

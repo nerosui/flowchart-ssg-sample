@@ -6,3 +6,9 @@
         </div>
     </footer>
 </template>
+
+<style scss scoped>
+footer {
+    text-align: center;
+}
+</style>

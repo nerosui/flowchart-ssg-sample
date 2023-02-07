@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex flex-column height-full wrap">
+    <div class="wrap">
     <TheHeader />
     <div class="flex-auto">
     <slot />
@@ -9,5 +9,12 @@
 </template>
 
 <style scoped scss>
-
+.wrap {
+    display: flex !important;
+    height: 100% !important;
+    flex-direction: column !important;
+}
+.flex-auto{
+    flex: auto;
+}
 </style>

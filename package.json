@@ -4,7 +4,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "generate:github": "NUXT_APP_BASE_URL=/flowchart-ssg-sample/ nuxt generate",
+    "generate:github": "NUXT_APP_BASE_URL=/flowchart-ssg-sample/  nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
@@ -12,7 +12,6 @@
     "nuxt": "^3.1.2"
   },
   "dependencies": {
-    "@primer/css": "^20.8.1",
     "sass": "^1.58.0"
   }
 }

@@ -11,6 +11,5 @@
 <script setup lang="ts">
 </script>
 
-<style>
-
+<style scss scoped>
 </style>
